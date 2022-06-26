@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #7c2ae8;
+}
+
+h1{
+    font-size: 32px;
+    margin: 1em;
+    color: azure;
+}
+
+.teclado{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: solid rgb(255, 255, 255) 2px;
+    border-radius: 2rem;
+    background-color: #7ee21d;;
+}
+.tecla{
+    margin: 1rem;
+    padding: 2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    border: #ffffff solid 1px;
+    background-color: #b1cd95;;
+    box-shadow: 3px 3px 0 #2c4d0b;;
+}
+
+.tecla:active{
+    border: #2c4d0b solid 1px;
+    background-color: #648642;
+    box-shadow: -3px -3px 0 #2c4d0b;
+}
